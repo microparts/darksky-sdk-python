@@ -13,7 +13,7 @@ weather information from around the globe.
 
 ### Installation
 ```
-pip3 install darksky_weather
+pip3 install darksky_sdk_python
 ```
 
 ### Get started
