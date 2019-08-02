@@ -43,13 +43,13 @@ class DarkSky(object):
                 latitude=latitude,
                 longitude=longitude
             )
-        else: 
-            url += '{host}/{api_key}/{latitude},{longitude},{time}'.format(
+        else:
+            url = '{host}/{api_key}/{latitude},{longitude},{time}'.format(
                 api_key=self.api_key,
                 host=self.HOST,
                 latitude=latitude,
                 longitude=longitude,
-                time=time
+                time=int(time)
             )
         data = self.__request_manager.make_request(url, **params)
         return Forecast(**data)
