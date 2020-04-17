@@ -1,6 +1,12 @@
 DarkSky [![CircleCI](https://circleci.com/gh/microparts/darksky-sdk-python.svg?style=svg)](https://circleci.com/gh/microparts/darksky-sdk-python)
 ==========
 
+https://blog.darksky.net/dark-sky-has-a-new-home/ 
+
+**The API will continue to function through the end of 2021. Then shutdowns.**
+
+_________________
+
 This  library for the [Dark Sky
 API](https://darksky.net/dev/docs) provides access to detailed
 weather information from around the globe.
